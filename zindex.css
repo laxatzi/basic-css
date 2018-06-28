@@ -1,0 +1,48 @@
+body { 
+   font-family: Helvetica, Arial, sans-serif;
+}
+div   {
+      width: 200px;
+	    height: 150px;
+   }
+   
+      div h3 {
+	       text-align: center;
+		     font-size: 30xp;
+		     font-weight: bold;
+		     line-height: 150px;
+		     color: #fff;
+		     margin: 0;
+		     padding: 0;
+	  }
+	  
+	  .orange {
+	       background-color: orangered;
+		     border: 5px solid deeppink;
+		     margin-top: -50px;
+		     margin-left: 20px;
+		     position: relative;
+		     z-index: 20;
+	  }
+	  .blue  {
+	     background-color: lightblue;
+		  border: 5px solid blue;
+		  margin-bottom: 15px;
+		  position: relative;
+		  z-index: 50;
+	  }
+	  .yellow  {
+	      background-color: yellow;
+		   border: 1px solid goldenrod;
+		   position: absolute;
+		   right:0;
+		   top:0;
+		   width: 100px;
+		   height: 75px;
+	  }
+	    .yellow  h3  {
+		    color: #000;
+			  line-height: 75px;
+			  z-index: 100;
+		}
+	  
