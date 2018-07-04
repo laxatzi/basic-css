@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Example of CSS sprites</title>
+	  <link rel="stylesheet"  href="sprites.css">  
+		 <style>
+     
+			   .container  {
+            width: 500px;
+		       margin: 40px auto;
+		   }
+          h1 {
+	          font-weight: bold;
+			      font-size: 36px;
+			      font-family: Helvetica, Arial, sans-serif;
+	      }
+     .twitter a:link,
+	   .twitter a:visited  {
+	       display: block;
+	       text-indent: -9999px;
+	       width: 180px;
+		     height: 36px;
+		     background: url(mySprite.png) top left no-repeat;
+	   }
+	 
+	 .twitter a:hover,
+	 .twitter a:active  {
+	      background-position: 0 -38px;
+	 }
+   
+	</style>
+	</head>
+  
+	<body>
+	    <div class="container">
+		    <h1>CSS Sprites</h1>
+		    <span class="twitter icon"><a href="#" >Twitter icon Cyan</a></span>
+		</div>
+	</body>
+</html>
