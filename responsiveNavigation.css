@@ -1,17 +1,17 @@
 html, 
 body  {
     margin: 0;
-	padding: 0;
-	font-family: helvetica, arial, sans-serif;
+    padding: 0;
+    font-family: helvetica, arial, sans-serif;
     line-height: 145%;
-	font-size: 20px;
-	box-sizing: border-box;
-	}
+    font-size: 20px;
+    box-sizing: border-box;
+   }
 	img  {
-		max-width: 100%;
-		height: auto;
-		vertical-align: middle;
-		border: 0;
+	    max-width: 100%;
+	    height: auto;
+	    vertical-align: middle;
+	    border: 0;
 	}
 	
 	h1,
@@ -20,65 +20,56 @@ body  {
 	h4,
 	h5,
 	h6  {
-		margin: 0;
-		padding:0;
-		line-height: 250%;
-		}
-	.clear {
-	    clear: both;
-	}	
+	    margin: 0;
+	    padding:0;
+	    line-height: 250%;
+	}
+	.clear {  clear: both;  }	
 
-		.nav {
-		     border-bottom: 1px solid #eaeaeb;
-			 text-align: right;
-			 height: 5em;
-			 line-height: 5em;
-		}
+	.nav {
+	     border-bottom: 1px solid #eaeaeb;
+	     text-align: right;
+	     height: 5em;
+	     line-height: 5em;
+	    }
 		
-		.menu  {
-		    margin: 0 1.5rem 0 0;
-		}
+		.menu  {  margin: 0 1.5rem 0 0;  }
 		
 		    .menu a {
 			     text-decoration: none;
-				 color: grey;
-				 margin: 5px 10px;
-				 line-height: 5em;
+			     color: grey;
+			     margin: 5px 10px;
+			     line-height: 5em;
 			}
 			
-			.standout  {
-			    color: orangered;
-			}
+		.standout  {  color: orangered;  }
 			
 			.nav label  {
-			     margin: 0 2rem 0 0;
+			         margin: 0 2rem 0 0;
 				 font-size: 1.5rem;
 				 line-height: 4em;
 				 display: none;
 				 width: 1.25rem;
 				 float: right;
-				
-				 
-			}
-			#toggle  {
-			     display: none;
-		    }
+			       }
+
+			#toggle  {  display: none; }
 			
 @media screen and (max-width: 500px)  {
 
      .nav label {
-	      display: block;
+	          display: block;
 		  cursor: pointer;
 	 }
 	 
 	 .menu {
-	      text-align: center;
+	          text-align: center;
 		  width: 100%;
 		  display: none;
 	 }
 	 
 	 .menu a {
-	      display: block;
+	          display: block;
 		  line-height: 3em;
 		  border-bottom: 1px solid #eaeaeb;
 		  margin: 0;
