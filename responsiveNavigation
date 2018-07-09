@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Responsive Navigation</title>
+	  <link rel="stylesheet"  href="main.css">  
+   </head>
+	<body>
+		<div class="nav">
+		    <!-- toggle icon -->
+			  <label for="toggle" >&#9776;</label>
+			  <input id="toggle" type="checkbox">
+<!-- 		End of toggle icon -->
+			<div class="menu clear">
+				<a href="#" >HOME</a>
+				<a href="#" >ABOUT</a>
+				<a href="#" >PORTFOLIO</a>
+				<a href="#" >BLOG</a>
+				<a href="#" ><span class="standout">HIRE</span></a>
+			</div>
+		</div>
+		
+	</body>
+</html>
