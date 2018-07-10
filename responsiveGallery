@@ -1,73 +1,68 @@
 <!doctype html>
 <html lang="en">
-  <head>
-	  <meta charset="UTF-8">
-	  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <title>Example of a responsive photo Gallery</title>
-	    
-	  <link rel="stylesheet"  href="css/main.css">  
-		 <link rel="stylesheet"  href="css/lightbox.css">
- </head>
-
- <body>
-
- <div class="section-fluid group">	
-    <header class="header col span_3_of_3">
-	
-       <div class="header--inner  span_1_of_3">
-		 <h1>Website Title</h1>
-		 <h2>Website slogan</h2>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Example of a responsive photo Gallery</title>
+      <link rel="stylesheet"  href="css/responsiveGallery.css">  
+      <link rel="stylesheet"  href="css/lightbox.css">
+   </head>
+   <body>
+      <div class="section-fluid group">	
+      <header class="header col span_3_of_3">
+	  <div class="header--inner  span_1_of_3">
+	     <h1>Website Title</h1>
+	     <h2>Website slogan</h2>
 	  </div>
-	  
 	  <nav class=" span_2_of_3">
-	    <label for="toggle">&#9776;</label>
-		<input type="checkbox" id="toggle">
-		<div class="menu clear">
-			<a href="#" >HOME</a>
-			<a href="#" >ABOUT</a>
-			<a href="#" >PORTFOLIO</a>
-			<a href="#" >BLOG</a>
-			<a href="#" ><span class="standout">HIRE</span></a>
-		</div>
-		
+	     <label for="toggle">&#9776;</label>
+	     <input type="checkbox" id="toggle">
+	     <div class="menu clear">
+	        <a href="#" >HOME</a>
+	        <a href="#" >ABOUT</a>
+		<a href="#" >PORTFOLIO</a>
+		<a href="#" >BLOG</a>
+		<a href="#" ><span class="standout">HIRE</span></a>
+	     </div>
 	  </nav>
-	</header> 
- </div>
+      </header> 
+      </div>
 <!--  End of header--> 
 
 <div class="section group main">
    <div class="content col span_2_of_3">
-	 <h2>Welcome to the page!</h2>
-	 <!-- Gallery -->
-	     <div class="thumbnails">
-		    <a href="images/barley-small.jpg" data-lightbox="galleryone" data-title="Picture of a barley"><img src="images/barley-small.jpg" alt="barley picture" class="gallery-img"></a>
-		    <a href="images/delphi-small.jpg" data-lightbox="galleryone" data-title="Picture of Delphi Oracle"><img src="images/delphi-small.jpg" alt="delphi picture" class="gallery-img"></a>
-		    <a href="images/desert-small.jpg" data-lightbox="galleryone" data-title="Picture of the Gobi desert"><img src="images/desert-small.jpg" alt="desert picture" class="gallery-img"></a>
-		    <a href="images/oceanWaves-small.jpg" data-lightbox="galleryone" data-title="Picture of the atlantic ocean"><img src="images/oceanWaves-small.jpg" alt="ocean waves picture" class="gallery-img"></a>
-		    <a href="images/pelicans-small.jpg" data-lightbox="galleryone" data-title="Picture of some pelicans in Mykonos Island"><img src="images/pelicans-small.jpg" alt="pelicans picture" class="gallery-img"></a>
-		    <a href="images/MtEverest-small.jpg" data-lightbox="galleryone" data-title="Picture of Mount Everest"><img src="images/MtEverest-small.jpg" alt="Mount Everest picture" class="gallery-img"></a>
-	    </div>
-	</div>
-	<!-- Sidebar -->
+	<h2>Welcome to the page!</h2>
+<!-- Gallery -->
+	<div class="thumbnails">
+	   <a href="images/barley-small.jpg" data-lightbox="galleryone" data-title="Picture of a barley"><img src="images/barley-small.jpg" alt="barley picture" class="gallery-img"></a>
+	   <a href="images/delphi-small.jpg" data-lightbox="galleryone" data-title="Picture of Delphi Oracle"><img src="images/delphi-small.jpg" alt="delphi picture" class="gallery-img"></a>
+	   <a href="images/desert-small.jpg" data-lightbox="galleryone" data-title="Picture of the Gobi desert"><img src="images/desert-small.jpg" alt="desert picture" class="gallery-img"></a>
+	   <a href="images/oceanWaves-small.jpg" data-lightbox="galleryone" data-title="Picture of the atlantic ocean"><img src="images/oceanWaves-small.jpg" alt="ocean waves picture" class="gallery-img"></a>
+	   <a href="images/pelicans-small.jpg" data-lightbox="galleryone" data-title="Picture of some pelicans in Mykonos Island"><img src="images/pelicans-small.jpg" alt="pelicans picture" class="gallery-img"></a>
+	   <a href="images/MtEverest-small.jpg" data-lightbox="galleryone" data-title="Picture of Mount Everest"><img src="images/MtEverest-small.jpg" alt="Mount Everest picture" class="gallery-img"></a>
+	 </div>
+   </div>
+<!-- Sidebar -->
    <div class="sidebar  col span_1_of_3">
       <h2>Sidebar heading</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis nibh nec luctus consectetur. 
-		    Fusce justo lectus, sollicitudin ac facilisis vel, accumsan id orci. Sed at ullamcorper nulla.
-		    Etiam ac justo sapien. Aenean et dui. </p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis nibh nec luctus consectetur. 
-			Fusce justo lectus, sollicitudin ac facilisis vel, accumsan id orci. Sed at ullamcorper nulla. Etiam ac justo sapien.
-			Aenean et dui. </p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis nibh nec luctus consectetur. 
-		    Fusce justo lectus, sollicitudin ac facilisis vel, accumsan id orci. Sed at ullamcorper nulla. Etiam ac justo sapien.
-		    Aenean et dui.</p>
-	</div>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis nibh nec luctus consectetur. 
+	     Fusce justo lectus, sollicitudin ac facilisis vel, accumsan id orci. Sed at ullamcorper nulla.
+	     Etiam ac justo sapien. Aenean et dui. </p>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis nibh nec luctus consectetur. 
+	     Fusce justo lectus, sollicitudin ac facilisis vel, accumsan id orci. Sed at ullamcorper nulla. Etiam ac justo sapien.
+	     Aenean et dui. </p>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis nibh nec luctus consectetur. 
+	     Fusce justo lectus, sollicitudin ac facilisis vel, accumsan id orci. Sed at ullamcorper nulla. Etiam ac justo sapien.
+	     Aenean et dui.</p>
+   </div>
  </div>	
   <div class="section-fluid group">
-	  <div class="footer col span_3_of_3">
-		  <h6>&copy; Lambros Chatzinikolou. All rights reserved.</h6>
-	  </div>
+     <div class="footer col span_3_of_3">
+	<h6>&copy; Lambros Chatzinikolou. All rights reserved.</h6>
+     </div>
   </div>
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/lightbox.min.js"></script>
 </body>
