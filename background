@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Background Image</title>
+    
+  <!-- Styles-->
+	  <style>
+		  .success  {
+		      background: #67b11c url("if_revisi.png") 20px 50% no-repeat;
+	        background-size: contain;
+		      border: 2px solid #467813;
+		      border-radius: 5px;
+		      color: #fff;
+		      padding: 15px 25px;
+		      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		      width: 50%;
+		      margin: 2rem auto;
+		      text-align: center;
+	    }
+	  </style>
+	 
+	</head>
+  
+	<body>
+		<div class="success">
+			Congratulations...You did it!
+		</div>
+	</body>
+</html>
