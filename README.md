@@ -9,3 +9,7 @@ In the example since .yellow  is a “child” of  .red  it sits below the .blue
 <p>Viewport units are always relative to the browser window or viewport.</p>
 <p>That make things very simple in a lot of instances, particularly in responsive web design.<br>
 As an example, we don't have to use multiple media queries to adjust hero text to the browser window, we can do just that by using viewport units. </p>
+
+<h2>Semitransparent Borders example:</h2>
+<p>An example of  translucent (semi transparent) borders using the background clip property.</p>
+<p>We put value to "padding box" in order for the background to not extend underneath borders. This way transparency becomes effective.</p>
