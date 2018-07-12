@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Semi transparent borders</title>
+	  <style>
+		  
+	  
+	  body  {
+    background: url("wood-9.jpg") center center no-repeat;
+	background-position: contain;
+}
+
+  div  {
+      
+	  max-width: 30%;
+	   
+	   margin: 2rem auto 0;
+	   color: #ccc;
+	   font: 120% 150% "Helvetica neue", Helvetica, sans-serif;
+	   background-color: #fff;
+	   padding: 2em;
+	   border: 10px solid rgba(250, 250, 250, .5);
+	   
+	   background-clip: padding-box;
+  } 
+	</style>	 
+	</head>
+	<body>
+		<div class="semiTransparent">
+			A semi transparent border.
+		</div>
+	</body>
+</html>
