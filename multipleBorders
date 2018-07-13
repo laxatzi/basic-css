@@ -1,39 +1,35 @@
 <!doctype html>
 <html lang="en">
-	<head>
-	  <meta charset="UTF-8">
-	  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <title>Multiple Borders with Box-shadow</title>
-	 
-	 <style>
-.div1  {
-     
-     width: 200px;
-	 height: 100px;
-	 margin: 2rem auto;
-	 padding: 15px;
-	 background: yellowgreen;
-	 box-shadow: 0 0 0 5px violet inset, 
-	             0 0 0 15px orange inset,
-				 0 2px 5px rgba(0,0,0, .5);
-}
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Multiple Borders with Box-shadow</title>
+<!-- STYLES -->	 
+      <style>
+         .div1 {
+               width: 200px;
+	       height: 100px;
+	       margin: 2rem auto;
+	       padding: 15px;
+	       background: yellowgreen;
+	       box-shadow: 0 0 0 5px violet inset, 
+	                   0 0 0 15px orange inset,
+			   0 2px 5px rgba(0,0,0, .5);
+               }
 
-    .div1:hover  {
-	          background: orangered;
-			  box-shadow: 0 0 0 5px orangered inset,
-			              0 0 0 15px orangered inset;
-	}
+        .div1:hover {
+	            background: orangered;
+		    box-shadow: 0 0 0 5px orangered inset,
+			        0 0 0 15px orangered inset;
+	            }
 	
 	</style>
-		 
-	</head>
-	<body>
-		<div class="div1">
-			
-		</div>
-		<div class="div2">
-			
-		</div>
-	</body>
+<! end of STYLES -->
+
+   </head>
+   <body>
+      <div class="div1"></div>
+		
+   </body>
 </html>
